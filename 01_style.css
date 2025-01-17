@@ -1,0 +1,57 @@
+body {
+  background-color: #4285f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  width: 400px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+h2 {
+  text-align: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  width: 200px;
+  padding: 8px;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.fa-facebook {
+  color: whitesmoke;
+  font-size: 20px;
+  margin-right: auto;
+  padding-right: auto;
+}
+.fa-google {
+  color: #0171d3;
+  margin-right: auto;
+  padding-right: auto;
+}
+.Facebook {
+  margin-right: 18px;
+}
+.Google {
+  margin-right: 27px;
+}
+p {
+  margin-left: 20px;
+}
